@@ -10,8 +10,22 @@
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
   background-color: #659dbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1 {
   font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#btn-dont {
+    padding: .5em .4em;
+    margin: 1em ;
+
+    
+    
+}
 }
