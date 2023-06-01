@@ -9,9 +9,9 @@
 
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-color: #659dbd;
 }
 
 h1 {
   font-size: 45px;
-  font-family: ;
 }
