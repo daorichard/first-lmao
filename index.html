@@ -5,20 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="png" href="/images/shiba-inu.png" />
-    <title>Hello :D</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="shiba.png" />
+    <title>Kira's Page</title>
   </head>
+
   <body>
-    <header class="header-flex">
-      <h1>Welcome to whatever this is</h1>
-      <img src="./images/smirk-wink.gif" alt="Rolling Shiba" />
+    <header>
+      <nav class="nav-flex">
+        <div>
+          <img
+            id="shiba-gif"
+            src="./images/smirk-wink.gif"
+            alt="Rolling Shiba"
+            width="100"
+            height="100"
+          />
+        </div>
+        <div class="time-container">
+          <h1 id="current-time">12:00</h1>
+        </div>
+        <ul class="links-flex">
+          <li><a href="#"></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <button class="btn-donate">
+              <a href="https://www.google.com/">Donate</a>
+            </button>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <div class="button-troll-flex">
-      <button id="btn-dont" onclick="pleaseNo();">don't click me.</button>
+    <div class="main-container">
+      <h1>Welcome to Kira's Amazing Life</h1>
+      <div class="bio-container">
+        <h2>hello</h2>
+      </div>
     </div>
 
+    <div class="btn-container">
+      <button class="btn-dont">don't click me.</button>
+      <button class="btn-2">hello</button>
+    </div>
     <p>The inspiration for the website is for my dog and friends</p>
-    <div class="image-container"></div>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

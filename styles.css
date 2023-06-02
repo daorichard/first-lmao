@@ -6,26 +6,91 @@
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
 }
+:root {
+  --blue: ##a9d585;
+  --background-color: #dcf4e8;
+}
 
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
-  background-color: #659dbd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: var(--background-color);
   height: 100vh;
+  margin: 0;
+}
+li {
+  padding: 0 5px;
+  list-style-type: none;
+}
+
+#donate {
+  color: red;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+header {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  background-color: #d3e3c6;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-flex {
+  display: flex;
+  margin-right: 10px;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
-#btn-dont {
-    padding: .5em .4em;
-    margin: 1em ;
-
-    
-    
+.btn-donate {
+  margin: 0 0.5em;
+  padding: 0.4em;
+  border-radius: 5px;
+  background-color: #a8ceba;
+  border: none;
 }
+
+.btn-donate > * {
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+}
+.btn-dont {
+  padding: 0.5em 0.4em;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+.btn-dont:hover {
+  box-shadow: 10 0 0 10px gainsboro;
+  cursor: pointer;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.time-container {
+  padding: 20px;
+}
+
+.main-container {
+  text-align: center;
+  color: ;
 }
