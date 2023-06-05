@@ -2,28 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu,
-    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
 }
+
 :root {
   --blue: ##a9d585;
   --background-color: #dcf4e8;
+  --boxcolor: #77d4a6;
 }
 
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
   background-color: var(--background-color);
   height: 100vh;
-  margin: 0;
+  margin: 0 auto;
 }
+
 li {
   padding: 0 5px;
   list-style-type: none;
-}
-
-#donate {
-  color: red;
 }
 
 li > a {
@@ -86,11 +85,32 @@ h1 {
   justify-content: flex-start;
 }
 
-.time-container {
+.main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.bio-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c2e1a7;
   padding: 20px;
 }
 
-.main-container {
-  text-align: center;
-  color: ;
+#bio-info {
+  margin-top: 1.2em;
+  margin-right: 1em;
+  padding: 1em;
+  background-color: #cbe0b9;
+}
+
+#kira-photo {
+  box-shadow: 0 0 8px 0 black;
+}
+
+#name {
+  font-size: 1.5rem;
 }
