@@ -96,8 +96,14 @@ h1 {
 .bio-container {
   display: flex;
   justify-content: space-between;
-  background-color: #c2e1a7;
+  background-color: #daefc7;
   padding: 20px;
+  text-align: start;
+  max-width: fit-content;
+}
+
+.bio {
+  margin-right: 10px;
 }
 
 #bio-info {
@@ -113,4 +119,5 @@ h1 {
 
 #name {
   font-size: 1.5rem;
+  padding-left: 10px;
 }

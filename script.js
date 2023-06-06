@@ -23,6 +23,7 @@ function pleaseNo() {
   const statements = ['please no', 'dont do it', '...'];
   let counter = 0;
   return () => {
+    if (counter === 3) counter = 0;
     alert(statements[counter]);
     counter++;
   };
